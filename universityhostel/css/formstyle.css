@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+
+} 
+.container1
+{
+    max-width: 1500px;
+    width: 100%;
+  
+    background-color:white;
+    margin: 200px auto;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+
+}
+.container1 .title
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #0a63d8;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container1 .form
+{
+  width: 100%;
+  margin-left: 20px;
+
+}
+.container1 .form .input-field
+{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.container1 .form .input-field label
+{
+  
+    width: 300px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.container1 .form .input-field input
+{
+  width: 100%;
+  outline:none;
+  border:1px solid green;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+
+}
+.container1 .form .input-field textarea
+{
+    width: 100%;
+    outline:none;
+    border:1px solid green;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    resize: none;
+    height: 100px;
+}
+.container1 .form .input-field .selectbox
+{
+    width: 100%;
+  outline:none;
+  border:1px solid green;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.container1 .form .input-field .selectbox:focus
+{
+    border:1px solid orange;
+}
+.container1 .form .input-field textarea:focus
+{
+    border:1px solid orange;
+}
+.container1 .form .input-field input:focus
+{
+    border:1px solid orange;
+}
+.container1 .form .input-field p
+{
+    font-size: 20px;
+    color:#757575;
+    margin-top: 5px;
+}
+.container1 .form .input-field .check
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.container1 .form .input-field .btn
+{
+    width: 100%;
+    padding:8px 10px;
+    font-size: 18px;
+    border:0;
+    background-color:#0a63d8;
+    color:white;
+    cursor:pointer;
+    border-radius: 3px;
+    outline:none;
+}
+.container1 .form .input-field:last-child
+{
+    margin-bottom: 0;;
+}
+.container1 .form .input-field .btn:hover
+{
+    background-color:black;
+}
+@media(max-width:420px)
+{
+    .container1 .form .input-field
+{
+   flex-direction: column;
+   align-items: flex-start;
+}
+.container1 .form .input-field label
+{
+  margin-bottom: 5px;
+}
+.container1 .form .input-field.terms
+{
+    flex-direction: row;
+}
+}
+
+.container1 .form .input-field .upload
+{
+ 
+    border:none
+}
+
+
+

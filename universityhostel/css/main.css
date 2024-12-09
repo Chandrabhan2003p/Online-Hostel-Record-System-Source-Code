@@ -1,0 +1,78 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slidering
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:url(../image/homeimage.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: 100% 70%;
+}
+.sliders_input
+{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+
+}
+.sliders
+{
+ max-width: 1500px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 200px;
+}
+.sliders_img
+{
+    background-size: auto 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    margin: 10px;
+    position: relative;
+    height: 600px;
+    border-radius: 100px;
+    cursor: pointer;
+    flex: 0.1;
+    overflow: hidden;
+    transition:flex 0.5s ease-in,border-radius 0.5s ease-in;
+}
+
+#input-1:hover ~ #label-1
+{
+    flex:0.5;
+    border-radius: 40px;
+}
+#input-2:hover ~ #label-2
+{
+    flex:0.5;
+    border-radius: 40px;
+}
+#input-3:hover ~ #label-3
+{
+    flex:0.5;
+    border-radius: 40px;
+}
+#input-4:hover ~ #label-4
+{
+    flex:0.5;
+    border-radius: 40px;
+}
+#input-5:hover ~ #label-5
+{
+    flex:0.5;
+    border-radius: 40px;
+}
+#input-6:hover ~ #label-6
+{
+    flex:0.5;
+    border-radius: 40px;
+}

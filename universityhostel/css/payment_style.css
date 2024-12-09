@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,#2ecc71 60%,#27ae60 40.1%);
+    padding-top: 70px;
+}
+.box form
+{
+    padding: 20px;
+    width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border-radius: 5px;
+
+}
+.box form .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.box form .row .col
+{
+    flex: 1 1 250px;
+
+}
+.box form .row .col .title
+{
+    font-size: 30px;
+    color:#fff;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #27AE60;
+
+    
+}
+.box form .row .col .inputbox
+{
+    margin: 15px 0;
+}
+
+.box form .row .col .inputbox span
+{
+    margin-bottom: 10px;
+    display: block;
+    
+}
+.box form .row .col .inputbox input
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px ;
+    font-size: 15px;
+    text-transform: none;
+}
+.box form .row .col .inputbox .input1
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px ;
+    font-size: 15px;
+    text-transform: none;
+}
+.box form .row .col .inputbox input:focus
+{
+    border: 1px solid #000;
+}
+.box form .row .col .inputbox .input1:focus
+{
+    border: 1px solid #000;
+}
+.box form .next_btn
+{
+    width: 10%;
+    padding:12px;
+    font-size: 17PX;
+    background: #27AE60;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 1000px;
+    cursor: pointer;
+}
+.box form .next_btn:hover
+{
+    background: #2ecc71;
+}
+
+
+
+
+
+.box form .back_btn
+{
+    width: 10%;
+    padding:12px;
+    font-size: 17PX;
+    background:#27AE60;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+    
+
+    cursor: pointer;
+    text-decoration: none
+}
+.box form .back_btn:hover
+{
+    background: #2ecc71;
+}
+
+
+
+
